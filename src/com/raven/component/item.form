@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="crazyPanel1" alignment="0" pref="212" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="crazyPanel1" alignment="0" pref="280" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="raven.crazypanel.CrazyPanel" name="crazyPanel1">
+      <Properties>
+        <Property name="flatLafStyleComponent" type="raven.crazypanel.FlatLafStyleComponent" editor="raven.crazypanel.bean.editor.FlatLafStyleEditor">
+          <SerializedValue value="-84,-19,0,5,115,114,0,38,114,97,118,101,110,46,99,114,97,122,121,112,97,110,101,108,46,70,108,97,116,76,97,102,83,116,121,108,101,67,111,109,112,111,110,101,110,116,-45,-56,5,104,-120,-26,26,62,2,0,2,76,0,8,111,119,110,83,116,121,108,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,91,0,6,115,116,121,108,101,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,41,98,111,114,100,101,114,58,49,44,49,44,49,44,49,44,115,104,97,100,101,40,64,98,97,99,107,103,114,111,117,110,100,44,49,48,37,41,44,44,51,48,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,83,116,114,105,110,103,59,-83,-46,86,-25,-23,29,123,71,2,0,0,120,112,0,0,0,1,116,0,12,102,111,110,116,58,98,111,108,100,32,43,49"/>
+        </Property>
+        <Property name="migLayoutConstraints" type="raven.crazypanel.MigLayoutConstraints" editor="raven.crazypanel.bean.editor.MigPanelEditor">
+          <SerializedValue value="-84,-19,0,5,115,114,0,37,114,97,118,101,110,46,99,114,97,122,121,112,97,110,101,108,46,77,105,103,76,97,121,111,117,116,67,111,110,115,116,114,97,105,110,116,115,7,-4,-14,44,102,-86,-49,42,2,0,4,76,0,17,99,111,108,117,109,110,67,111,110,115,116,114,97,105,110,116,115,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,91,0,19,99,111,109,112,111,110,101,110,116,67,111,110,115,116,114,97,105,110,116,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,17,108,97,121,111,117,116,67,111,110,115,116,114,97,105,110,116,115,113,0,126,0,1,76,0,14,114,111,119,67,111,110,115,116,114,97,105,110,116,115,113,0,126,0,1,120,112,116,0,0,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,83,116,114,105,110,103,59,-83,-46,86,-25,-23,29,123,71,2,0,0,120,112,0,0,0,3,116,0,14,119,105,100,116,104,32,49,55,48,44,119,114,97,112,116,0,25,119,105,100,116,104,32,49,55,48,44,104,101,105,103,104,116,32,49,55,48,44,119,114,97,112,116,0,26,115,112,108,105,116,32,51,44,119,105,100,116,104,32,52,48,44,104,101,105,103,104,116,32,52,48,116,0,0,116,0,0"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="designation">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b2" green="b2" red="b2" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Item Name"/>
+          </Properties>
+        </Component>
+        <Container class="com.raven.swing.PictureBox" name="image">
+          <Properties>
+            <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/coffe/icon/milk.png"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="2f" green="2f" red="d4" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="DH"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="170" y="150" width="30" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="prixvente">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="2f" green="2f" red="d4" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="00.00"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="110" y="150" width="60" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="idproduit">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="categorieid">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="150" y="0" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="raven.crazypanel.CrazyPanel" name="crazyPanel2">
+          <Properties>
+            <Property name="flatLafStyleComponent" type="raven.crazypanel.FlatLafStyleComponent" editor="raven.crazypanel.bean.editor.FlatLafStyleEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,38,114,97,118,101,110,46,99,114,97,122,121,112,97,110,101,108,46,70,108,97,116,76,97,102,83,116,121,108,101,67,111,109,112,111,110,101,110,116,-45,-56,5,104,-120,-26,26,62,2,0,2,76,0,8,111,119,110,83,116,121,108,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,91,0,6,115,116,121,108,101,115,116,0,19,91,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,41,98,111,114,100,101,114,58,49,44,49,44,49,44,49,44,115,104,97,100,101,40,64,98,97,99,107,103,114,111,117,110,100,44,49,48,37,41,44,44,51,48,117,114,0,19,91,76,106,97,118,97,46,108,97,110,103,46,83,116,114,105,110,103,59,-83,-46,86,-25,-23,29,123,71,2,0,0,120,112,0,0,0,1,116,0,34,74,84,101,120,116,70,105,101,108,100,46,112,108,97,99,101,104,111,108,100,101,114,84,101,120,116,61,81,97,110,116,105,116,121"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="lbqty">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f2" green="f2" red="f2" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="com.raven.swing.Button" name="buttonPlus">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/coffe/img/plus.png"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[40, 40]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.raven.swing.Button" name="buttonMois">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/coffe/img/moins_1.png"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[40, 40]"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
